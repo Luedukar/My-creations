@@ -1,0 +1,279 @@
+header {
+	background: #6EFFEE;
+	padding: 20px 0;
+}
+
+.curso {
+    background: #26A69A;
+	padding: 60px;
+    text-align: center;
+	font-size: 3.0em;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Gentium Book Plus', serif
+}
+
+.paginas {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.titulo-grande {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	padding: 25px;
+	font-size: 30px;
+	margin: 30px 0 0;
+}
+
+.imagens-gastronomia {
+	text-align: center;
+	padding: 5px;
+	margin: 40px 0 55px 0;
+}
+
+.imgastro {
+   width: 30%;
+   padding: 8px;
+   transition: 300ms;
+   opacity: 0.7;
+   border-radius: 30px;
+   vertical-align: top;
+}
+
+.imgastro:hover {
+   width: 30.7%;
+   padding: 8px;
+   transition: 300ms;
+   opacity: 1;
+   border-radius: 12px;
+}
+
+.titulo-requisitos {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	padding: 25px;
+	font-size: 30px;
+	margin: 30px 
+}
+
+.primeira-parte  p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 120px;
+    padding: 0 0 30px;
+}
+
+.primeira-parte strong {
+	font-weight: bold;
+}
+
+.primeira-parte em {
+	font-style: italic;
+}
+
+.gastro1 {
+	width: 100%;
+}
+
+.gastro-lista {
+	width: 35%;
+	margin: 0 0 55px;
+	opacity: 1;
+	display: inline-block;
+	transition: 350ms;
+	border-radius: 5px;
+}
+
+.gastro-lista:hover {
+    transition: 350ms;
+    opacity: 0.8;
+}
+
+.requisitos {
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background: linear-gradient(#FFFFFF, #D3D3D3);
+}
+
+.lista-requisitos {
+    width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.lista {
+	line-height: 2.4;
+	font-size: 29px;
+	transition: 250ms;
+}
+
+.lista:hover {
+	transition: 250ms;
+	color: #26A69A;
+	cursor: pointer;
+}
+
+.lista:before {
+	content: "•";
+}
+
+.botao {
+	padding: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	margin: 30px;
+	border-radius: 4px;
+	cursor: pointer;
+	background: #26A69A;
+	color: #FFFFFF;
+}
+
+.botao:hover {
+	background: #20B2AA;
+	transform: scale(1.1);
+	transition: 100ms;
+}
+
+.titulo-medio {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	padding: 25px;
+	font-size:23px;
+	margin: 0 0 20px;
+}
+
+.diferença {
+	text-align: center;
+	vertical-align: top;
+	padding: 5px;
+	background: #D3D3D3;
+}
+
+.padaria {
+	width: 40%;
+	padding: 5px;
+	text-align: center;
+	background: #26A69A;
+	box-sizing: border-box;
+	display: inline-block;
+	transition: 500ms;
+}
+
+.padaria:hover {
+	background: #6EFFEE;
+	transition: 500ms;
+}
+
+.gastronomia:hover {
+	background: #6EFFEE;
+	transition: 500ms;
+}
+
+.img-diferença {
+	width: 390px;
+	transition: 500ms;
+	display: inline-block;
+    text-align: center;
+}
+
+.texto-padaria {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 1.5;
+}
+
+.gastronomia {
+	width: 40%;
+	padding: 5px;
+	text-align: center;
+	background: #26A69A;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 20px 0 0 65px;
+	transition: 500ms;
+}
+
+.texto-gastronomia {
+    display: inline-block;
+	vertical-align: top;
+	line-height: 1.5;
+}
+
+.titulo-final {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	padding: 20px;
+	font-size: 30px;
+	margin: 30px 0 0;
+	color: #FFFFFF;
+}
+
+.imgrodape {
+	float: left;
+}
+
+.textorodape {
+	position: relative;
+	right: 13%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.textorodape2 {
+	position: relative;
+	left: 15%;
+	margin: 0 auto;
+	text-align: center;
+	top: -55px;
+}
+
+.copyringht {
+	text-align: center;
+}
+
+main {
+	overflow-x: hidden;
+}
+
+nav {
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;
+}
+
+nav a {
+	text-transform: uppercase ;
+	color: #3B936F;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	opacity: 0.6;
+	text-decoration: underline;
+	text-decoration: none;
+}
+
+footer {
+	background: #6EFFEE ;
+	padding: 20px 0;
+}

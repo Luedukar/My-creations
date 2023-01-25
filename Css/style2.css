@@ -1,0 +1,167 @@
+body{
+ background: linear-gradient(#6EFFEE, #FFFFFF, #6EFFEE );
+ overflow-x: hidden;
+}
+
+header {
+	background: #6EFFEE;
+}
+
+.paginas {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+nav {
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;
+}
+
+nav a {
+	text-transform: uppercase ;
+	color: #3B936F;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	opacity: 0.6;
+	text-decoration: underline;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 20px;
+	font-style: italic;
+}
+.texto{
+	text-align: center;
+}
+.sobre{
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	vertical-align: top;
+	margin: 0 1.2%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 3px solid #6EFFEE;
+	border-radius: 50px;
+}
+.mapa{
+padding: 3em 0;
+}
+.mapa p{
+	margin: 0 0 2em;
+}
+.homi{
+	width: 150px;
+	float: left;
+}
+.datas{
+	width: 500px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.datas li{
+	display: inline-block;
+	text-align: center;
+	width: 95%;
+	vertical-align: top;
+	margin: 0 1.2%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 3px solid #000000;
+	border-radius: 50px;
+
+}
+.datas li:hover{
+	border-color: #3B936F;
+}
+.datas li:active{
+	border-color: #000000;
+}
+.datas li:hover h2{
+	font-size: 40px;
+}
+.princi{
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	vertical-align: top;
+	margin: 0 1.2%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 3px solid #000000;
+	border-radius: 50px;
+}
+
+.peda{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.peda li{
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	vertical-align: top;
+	margin: 0 1.2%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 3px solid #000000;
+	border-radius: 50px;
+}
+.contato{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.contato li{
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	vertical-align: top;
+	margin: 0 1.2%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 3px solid #000000;
+	border-radius: 50px;
+}
+
+footer {
+	background: #6EFFEE ;
+	padding: 20px 0;
+}
+
+.imgrodape {
+	float: left;
+}
+
+.textorodape {
+	position: relative;
+	right: 13%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.textorodape2 {
+	position: relative;
+	left: 15%;
+	margin: 0 auto;
+	text-align: center;
+	top: -55px;
+}
+
+.copyringht {
+	text-align: center;
+}

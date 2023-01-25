@@ -1,0 +1,199 @@
+body {
+	background: linear-gradient(#FFFFFF 25%, #74FEDD );
+	overflow-x: hidden;
+}
+
+header {
+	background: #6EFFEE;
+	padding: 20px 0;
+}
+
+h1 {
+	font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.caixacentral {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.titulo {
+	background: #26A69A;
+	padding: 60px;
+    text-align: center;
+	font-size: 3.0em;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.imgcentro {
+	width: 100%;
+}
+
+.quemsomos {
+	font-size: 18px;
+	padding-left: 10px;
+	margin: 15px;
+}
+
+
+.img-escolha1 {
+    width: 150px;
+	float: left;
+	padding-left: 10px;
+	margin: 15px 20px 20px 0;
+}
+
+.texto1 {
+	font-size: 20px;
+	padding-top: 22px;
+	margin-right: 10px;
+}
+
+.mapa {
+	float: right;
+}
+
+.titulo2 {
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 25%;
+	padding-top: 30px;
+	margin: 30px;
+}
+
+.texto2 {
+	text-align: center;
+	font-size: 18px;
+	padding: 0 0 0 15px;
+	margin-left: 15px;
+	line-height: 1.2;
+}
+
+.video {
+	width: 650px;
+	height: 450px;
+	margin-top:140px;
+	margin-left: 55px;
+	float: left;
+	padding: 20px;
+}
+
+.titulo3 {
+	margin-left: 800px;
+	margin-top: 85px;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.texto3 {
+	padding-right: 330px;
+	margin-left: 725px;
+	margin: 22px;
+}
+
+.titulo4 {
+	text-align: center;
+	padding-top: 40px;
+	font-weight: bold;
+	font-size: 32px;
+	margin: 30px;
+}
+
+.principios {
+	width: 100%;
+}
+
+.escolhas {
+	text-align: center;
+	margin: 20px;
+}
+
+.escolhas li {
+	display: inline-block;
+	width: 95%;
+	vertical-align: top;
+	margin: 0.5%;
+	box-sizing: border-box;
+	border: 2.5px solid #000000;
+	border-radius: 10px;
+	color: #000000;
+	text-align: center;
+}
+
+.escolhas li:hover {
+	border-color: #3B936F;
+}
+
+.escolhas li:hover img {
+	width: 185px;
+}
+
+.escolhas li:hover p {
+	font-size: 22px;
+}
+
+.imgrodape {
+	float: left;
+}
+
+.textorodape {
+	position: relative;
+	right: 13%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.textorodape2 {
+	position: relative;
+	left: 15%;
+	margin: 0 auto;
+	text-align: center;
+	top: -55px;
+}
+
+.copyringht {
+	text-align: center;
+}
+
+.escolhas li:active {
+	color: #000000;
+}
+
+strong {
+	font-weight: bold;
+}
+
+nav {
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;
+}
+
+nav a {
+	text-transform: uppercase ;
+	color: #3B936F;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	opacity: 0.6;
+	text-decoration: underline;
+	text-decoration: none;
+}
+
+footer {
+	background: #6EFFEE ;
+	padding: 20px 0;
+}
